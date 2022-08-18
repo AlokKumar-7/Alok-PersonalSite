@@ -1,0 +1,143 @@
+body{
+  background-color: #e0ffff;
+  margin: 0;
+  text-align: center;
+  font-family:"Merriweather",serif;
+}
+.top-container{
+  
+  padding-top: 25px;
+  font-size : 100%;
+}
+.topcloud{
+  display: block;
+  margin-left: 50%;
+
+}
+.txt1{
+  text-align: center;
+  margin-left: 0;
+  font-family: "Gill Sans Extrabold", sans-serif;
+}
+h1{
+  font-size:5.625rem;   /*16px = 1rem =100% */
+  margin:50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color:#66BFBF;
+  line-height:1;
+}
+h3{
+  font-family: "Montserrat",sans-serif;
+  color : #11999E;
+
+}
+h2{
+font-family:"Montserrat",sans-serif;
+font-size:2.5rem;
+color:#66BFBF;
+font-weight:normal;
+}
+p{
+  font-family:"Montserrat",sans-serif;
+}
+.bottomcloud{
+  margin-left: -50%;
+}
+.c1{
+  padding-left: 500px;
+  padding-right: 500px;
+  margin:50px auto 100px auto;
+}
+.dp{
+  width: 25%;
+  margin-top:75px;
+}
+.skill-row{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height:2;
+}
+.skill1{
+  width: 25%;
+  float: left;
+  margin-right: 7.5%;
+}
+/*.t1{
+  clear: left;
+}                         --> this code can be use to clear the the wrapping 
+.t2{                           either from left right top or bottom.
+  clear:right;
+}*/
+.skill2{
+  width:25%;
+  float: right;
+  margin-left:7.5%;
+}
+.bottom-container{
+  padding: 100px auto 70px auto;
+  text-align: center;
+  background-color:#66BFBF;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family:"Montserrat",sans-serif;
+  color: #f7f7f7;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.contact-me{
+  margin-bottom: 100px;
+}
+.parag-mar{
+  margin-bottom: 50px;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.ft{
+  color:#EAF6F6;
+  padding: 20px 20px;
+  font-size:0.75rem;
+}
+hr {
+  border-style:none;
+  border-top-style:dotted;
+  color: #0c3636;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  width:5%;
+  border-width: 10px;
+}
+.footer{
+  margin-top:20px
+}
+a{
+  padding-top: 20px;
+  margin:10px 20px;
+  color:#11999E;
+  text-decoration: none;
+  font-family:"Montserrat",sans-serif;
+}
+a:hover{
+  color:#EAF6F6;
+
+}
